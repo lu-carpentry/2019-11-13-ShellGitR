@@ -6,11 +6,11 @@ address: "Room XX, Ekologihuset, Sölvegatan 37, 223 62 Lund"      # full street
 country: "se"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "55.714131, 13.208741"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "14 November 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "13-14 November 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "09:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-11-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-11-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Dmytro Perepolkin", "Hadrien Gourlé"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Joachim Hein","Hadrien Gourlé","Dmytro Perepolkin"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Ullrika Sahlin"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["dmytro.perepolkin@cec.lu.se"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: "https://pad.carpentries.org/20191114-R"            # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
@@ -117,7 +117,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <strong>Requirements:</strong> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
-  <a href="#setup">below</a>). They are also required to abide by
+  <a href="#setup">below</a>). The laptop needs to be able to access the internet via Eduroam.  Internet access via Eduroam needs to be activated at the participant's home institution prior to attending the course. Participants are also required to abide by
   {% if page.carpentry == "swc" %}
   Software Carpentry's
   {% elsif page.carpentry == "dc" %}
