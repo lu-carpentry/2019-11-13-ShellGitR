@@ -46,7 +46,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h2 id="general">General Information</h2>
+<h2 id="general">Introduction to data handling using R tidyverse in a modern software environment</h2>
 
 {% comment %}
   INTRODUCTION
