@@ -245,10 +245,10 @@ This workshop is possible thanks to the collaboration of the following entities,
 
 <div class="sponsor-logos">
   <a href="https://www.snic.se" title="Swedish National Infrastructure for Computing">
-    <img style="margin-right:50px" alt="SNIC" src="../img/snic.png" width="170"/>
+    <img style="margin-right:50px" alt="SNIC" src="img/snic.png" width="170"/>
   </a>
   <a href="http://www.lunarc.lu.se" title="Center for scientific and technical computing at Lund University">
-    <img style="margin-right:50px" alt="lunarc" src="../img/lunarc_logo.png" width="150"/>
+    <img style="margin-right:50px" alt="lunarc" src="img/lunarc_logo.png" width="150"/>
   </a>
 </div>
 
