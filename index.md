@@ -114,7 +114,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Modify the block below if there are any special requirements.
 {% endcomment %}
 <p id="requirements">
-  <strong>Requirements:</strong> Participants must bring a laptop with a
+  <div class="alert alert-warning"> Participants must bring a laptop with a
   Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges
   on. They should have a few specific software packages installed (listed
   <a href="#setup">below</a>). The laptop needs to be able to access the internet via Eduroam.  Internet access via Eduroam needs to be activated at the participant's home institution prior to attending the course. Participants are also required to abide by
@@ -126,6 +126,7 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   Library Carpentry's
   {% endif %}
   <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+</div>
 </p>
 
 {% comment %}
@@ -176,6 +177,80 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   {% endif %}
   for more information.
 </p>
+
+<hr/>
+
+{% comment %}
+  REGISTRATION
+
+  Show the workshop's schedule.  Edit the items and times in the table
+  to match your plans.  You may also want to change 'Day 1' and 'Day
+  2' to be actual dates or days of the week.
+{% endcomment %}
+<h2 id="registration">Registration</h2>
+
+
+Registration is open as October the 3rd 2019.  Workshop is limited to 35 people.
+
+<div style="display: block;" class="classictemplate template">
+<style type="text/css">
+  #groupsio_embed_signup input {border:1px solid #999; -webkit-appearance:none;}
+  #groupsio_embed_signup label {display:block; font-size:16px; padding-bottom:10px; font-weight:bold;}
+  #groupsio_embed_signup .email {display:block; padding:8px 0; margin:0 4% 10px 0; text-indent:5px; width:58%; min-width:130px;}
+  #groupsio_embed_signup {
+    background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif;
+  }
+  #groupsio_embed_signup .button {
+      width:25%; margin:0 0 10px 0; min-width:90px;
+      background-image: linear-gradient(to bottom,#337ab7 0,#265a88 100%);
+      background-repeat: repeat-x;
+      border-color: #245580;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
+      padding: 5px 10px;
+      font-size: 12px;
+      line-height: 1.5;
+      border-radius: 3px;
+      color: #fff;
+      background-color: #337ab7;
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: 400;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+    }
+</style>
+<div id="groupsio_embed_signup">
+<!--
+<form action="https://groups.io/g/lund-SC-workshop/signup?u=2154170982873630030" method="post" id="groupsio-embedded-subscribe-form" name="groupsio-embedded-subscribe-form" target="_blank">
+-->
+<form target="_blank" action="https://sunet.artologik.net/lu/Survey/25431" method="GET">
+    <div id="groupsio_embed_signup_scroll">
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input name="b_2154170982873630030" tabindex="-1" value="" type="text"></div>
+    <div id="templatearchives"></div>
+    <input value="Register here" name="subscribe" id="groupsio-embedded-subscribe" class="button" type="submit"/>
+  </div>
+</form>
+</div>
+</div>
+
+<hr/>
+
+{% comment %}
+  SPONSORS
+{% endcomment %}
+<h2 id="sponsors">Sponsors</h2>
+This workshop is possible thanks to the collaboration of the following entities, which allow us to do this under our working schedule and contribute to the associated costs.
+
+<div class="sponsor-logos">
+  <a href="https://www.snic.se" title="Swedish National Infrastructure for Computing">
+    <img style="margin-right:50px" alt="SNIC" src="img/snic.png" width="170"/>
+  </a>
+  <a href="http://www.lunarc.lu.se" title="Center for scientific and technical computing at Lund University">
+    <img style="margin-right:50px" alt="lunarc" src="img/lunarc_logo.png" width="150"/>
+  </a>
+</div>
 
 <hr/>
 
