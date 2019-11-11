@@ -2,10 +2,10 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Lund University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Room XX, Ekologihuset, Sölvegatan 37, 223 62 Lund"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Rooms V:O2, V:S2 and V:P2, V-huset, LTH, John Ericssons väg 1, 223 63 Lund, Sweden"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "se"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "55.714131, 13.208741"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "55.712628, 13.211062"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "13-14 November 2019"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "09:00 - 17:00"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-11-14      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
@@ -145,12 +145,10 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
   <li>Accessible restrooms are available.</li>
 </ul>
 <p>
-  Materials will be provided in advance of the workshop and
-  large-print handouts are available if needed by notifying the
-  organizers in advance.  If we can help making learning easier for
+  If we can help making learning easier for
   you (e.g. sign-language interpreters, lactation facilities) please
   get in touch (using contact details below) and we will
-  attempt to provide them.
+  attempt to provide that.
 </p>
 
 {% comment %}
